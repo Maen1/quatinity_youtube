@@ -1,4 +1,4 @@
-# WSL
+# Have you got the tools??
 
 Windows subsystem for Linux,  all Linux flexibility with stable apps on windows.
 
@@ -51,6 +51,12 @@ conda config --set auto_activate_base False
 ```
 
 # VS code
+
+Download and instal vscode 
+
+```jsx
+https://code.visualstudio.com/
+```
 
 link vs code to conda‘s python interpreter 
 
