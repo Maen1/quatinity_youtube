@@ -1,5 +1,5 @@
 ## Python Sneak Peek
-A short overview of pythons variables, conditions, loops  and functions
+A short overview of python( variables, conditionals, loops  and dictionaries)
 
 ### Variables 
 Python is a dynamically typed language; which means that we don't need to specify (declare) the variable type such as numbers (int, float or  double),  text types(string, char) or boolean (True, False)
@@ -101,9 +101,6 @@ print(movies[1])
 for movie in movies:
 	print(movie)
 
-# if I want to access the other lists at the same time
-for movie, rating in zip(movies, ratings):
-	print(movie, rating)
 
 # or we can go by index
 for i in range(len(movies)):
@@ -134,6 +131,13 @@ print(movie)
 print(movie["title"])
 ````
 
-
-
+```python
+movies = [
+        {"title": "The Shawshank Redemption", "rating": 9.3, "director" : "Frank Darabont"},
+        {"title": "The Godfather", "rating": 9.2, "director" : "Francis Ford Coppola"},
+        {"title": "The Dark Knight", "rating": 9, "director" : "Christopher Nolan"},
+        {"title": "The Godfather Part II", "rating": 9 , "director" : "Francis Ford Coppola"},
+        {"title": "Aladdin", "rating": 8, "director" : "Ron Clements"},
+]
+````
 
